@@ -5,7 +5,7 @@ export default async function handler(req, res) {
     const { receiver, amount } = req.body;
 
     // Biconomy API Configuration
-    const API_KEY = 'YOUR_BICONOMY_API_KEY'; // Replace with your API Key
+    const API_KEY = 'TbS1iirlF.a1bad543-0e96-44d9-bc55-6d9e833f88a4'; // Replace with your API Key
     const RELAYER_URL = 'https://api.biconomy.io/api/v2/meta-tx/native'; // Example endpoint
 
     const txPayload = {
